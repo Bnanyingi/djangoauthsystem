@@ -38,8 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles', 
-    'users.apps.UsersConfig',
     'crispy_forms', 
+    'users.apps.UsersConfig',
+    
 ]
 
 MIDDLEWARE = [
@@ -134,8 +135,6 @@ STATICFILES_DIRS = [
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-REGISTER_REDIRECT_URL = 'home'
 
 LOGIN_REDIRECT_URL = 'home'
 
